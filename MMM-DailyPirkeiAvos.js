@@ -1,5 +1,3 @@
-// MMM-PirkeiAvot.js
-
 Module.register("MMM-PirkeiAvot", {
   defaults: {
     updateInterval: 24 * 60 * 60 * 1000, // Update every 24 hours
@@ -24,7 +22,6 @@ Module.register("MMM-PirkeiAvot", {
       return wrapper;
     }
 
-    // Display data
     wrapper.innerHTML = `Pirkei Avot ${this.mishna.chapter}:${this.mishna.mishna} - ${this.mishna.text}`;
 
     return wrapper;

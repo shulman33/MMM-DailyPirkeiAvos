@@ -6,7 +6,7 @@ module.exports = NodeHelper.create({
     console.log("MMM-PirkeiAvot helper started...");
   },
 
-  getMishna: function (payload) {
+  getMishna: function () {
     var self = this;
     var chaptersCount = 5;
     var randomChapter = Math.floor(Math.random() * chaptersCount) + 1;
